@@ -1,0 +1,41 @@
+
+  #bannerDePagina {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #151419, #0d144e);
+    color: white;
+    height: 85px;
+  }
+  
+  #tituloPagina {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 30px;
+  }
+  
+  #btnsBanner {
+    margin-right: 40px;
+  }
+  
+  .btnsSesion {
+    background-color: #41338b;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+  }
+  .btnsSesion:hover {
+    background-color: #2d2263;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px white;
+  }
+  
