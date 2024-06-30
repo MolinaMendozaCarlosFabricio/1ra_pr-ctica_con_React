@@ -1,15 +1,11 @@
 import React from "react";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faRocket} from '@fortawesome/free-solid-svg-icons'
 import './index.css'
+import Tittle from "../../atomo/Tittle";
 
 const MainHeader = () => {
     return (
         <header id="bannerDePagina">
-            <a id="tituloPagina">
-                <span><FontAwesomeIcon icon={faRocket} /></span>
-                <h2>Hello World</h2>
-            </a>
+            <Tittle/>
             <div id="btnsBanner">
                 <button className="btnsSesion">Iniciar sesión</button>
                 <button className="btnsSesion">Registrarse</button>
@@ -17,5 +13,5 @@ const MainHeader = () => {
         </header>
     );
 }
-
+ 
 export default MainHeader;

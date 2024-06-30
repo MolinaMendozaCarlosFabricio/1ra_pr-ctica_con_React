@@ -1,0 +1,10 @@
+#tituloPagina {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 30px;
+}
