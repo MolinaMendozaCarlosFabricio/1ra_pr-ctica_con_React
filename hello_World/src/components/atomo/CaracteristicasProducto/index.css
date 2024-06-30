@@ -1,0 +1,16 @@
+.box-caracteristicas {
+    font-size: 13px;
+    margin-top: -15px;
+}
+  
+.box-caracteristicas p {
+    font-weight: 600;
+    font-size: 11px;
+}
+  
+.box-caracteristicas ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 12px;
+}
